@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color:indianred;
+}
+.navcls{
+    border: 2px solid rgb(143, 3, 3);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navlinks{
+    justify-content: end;
+    list-style: none;
+    padding: 5px;
+    gap: 10px;
+}
+.navlinks a{
+ text-decoration: none;
+ color:darksalmon;
+}
+a:hover{
+    color: coral;
+}
+.navbtn {
+   display:flex;
+   justify-content: space-evenly;
+}
