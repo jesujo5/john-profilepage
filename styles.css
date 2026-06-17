@@ -4,22 +4,26 @@ body {
 }
 .navcls{
     padding: 10px;
+    display: flex;
+    justify-content: start;
+    
+    
 }
 .navlinks{
     display: flex;
-    justify-content: start;
-    list-style: none;
-    padding: 5px;
-    gap: 10px;
+    align-items: center;
+   
 }
-.navlinks a{
+.navlinks { 
+    display:flex;
+    justify-content: start;
+    gap: 10px;
+    list-style: none;
+ }
+.navlinks a, li{
  text-decoration: none;
  color:darksalmon;
 }
 a:hover{
     color: coral;
-}
-.navbtn {
-   display:flex;
-   justify-content: space-evenly;
 }
