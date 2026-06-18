@@ -1,29 +1,40 @@
 body {
-    background-color: black;
+    background-color:rgb(16, 16, 16);
     color:indianred;
 }
-.navcls{
-    padding: 10px;
+html {
+    scroll-behavior: smooth;
+    }
+.navigation{
+    position:fixed;
+    display: inline;
     display: flex;
-    justify-content: start;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(4px);
+   
+}
+.nav-name{
+    display: flex;
+    flex-direction:row;
+    padding-left: 15px;
+    padding-top: 10px;
     
+}
+.navigation-items{
     
 }
 .navlinks{
     display: flex;
-    align-items: center;
-   
-}
-.navlinks { 
-    display:flex;
-    justify-content: start;
-    gap: 10px;
     list-style: none;
- }
-.navlinks a, li{
- text-decoration: none;
- color:darksalmon;
+    gap: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
 }
-a:hover{
+.navlinks a:visited{
+    color:darksalmon;
+}
+.navlinks a:hover{
     color: coral;
 }
