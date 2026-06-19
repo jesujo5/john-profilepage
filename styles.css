@@ -1,5 +1,4 @@
 *{
-    margin:0;
     padding:0;
     box-sizing:border-box;
 }
@@ -7,26 +6,34 @@ body {
     background: #002F49;
     color:#EDEBDE;
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
 }
 html {
     scroll-behavior: smooth;
 }
 .navbar{
+    position:fixed;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);/*blurry background*/
+    font-size: 20px;
+    margin: 0%;
     padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 30px;
-    padding-right: 60px;
-}
+    padding-right: 0px;
+    border-radius: 10px;
+    height:80px;
+    width: 100%;/*to make the nav bar fixed with full length */
+border: 2px solid;}
 .nav-name{
     display: flex;
-    flex-direction:row;
-    padding-left: 15px;
-    padding-top: 10px;   
+    flex-direction:row;  
+}
+.nav-name {
+    color:lightcoral;
+    font-size: 25px;
 }
 .navlinks{
     display: flex;
@@ -43,4 +50,29 @@ html {
 }
 .navlinks a:hover{
     color: coral;
+}
+.contents{
+    padding-top: 80px;/*avoid content being overlapped with navbar*/
+    margin-left:2px;
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 250px;
+    
+    padding-top: 110px;/*alignment of "portfoilo" on home page*/
+    padding-bottom: 200px;
+border: 2px solid;
+    letter-spacing: 3px;
+}
+.portfolio span{
+    color: aqua;
+    letter-spacing: 5px;
+}
+#about {
+    padding-top: 80px;/*to keep about section below nav bar*/
+    margin-left: 10px;
+    margin-right: 10px;
+border: 2px solid;    
 }
