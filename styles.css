@@ -60,7 +60,7 @@ border: 2px solid;}
     flex-direction: column;
     align-items: center;
     font-size: 250px;
-    
+
     padding-top: 110px;/*alignment of "portfoilo" on home page*/
     padding-bottom: 200px;
 border: 2px solid;
@@ -75,4 +75,44 @@ border: 2px solid;
     margin-left: 10px;
     margin-right: 10px;
 border: 2px solid;    
+}
+#education {
+    padding-top: 80px;/*to keep about section below nav bar*/
+    margin-left: 10px;
+    margin-right: 10px;
+border: 2px solid;
+}
+.Undergraduation{
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+.Undergraduation h1{
+    font-style: italic;
+    text-decoration: underline;
+}
+.Undergraduation-ul{
+    list-style: circle;
+}
+.Undergraduation-ul span{
+    font-style: italic;
+    
+}
+#skills {
+    padding-top: 80px;/*to keep about section below nav bar*/
+    margin-left: 10px;
+    margin-right: 10px;
+border: 2px solid;
+}
+#project{
+    padding-top: 80px;/*to keep about section below nav bar*/
+    margin-left: 10px;
+    margin-right: 10px;
+border: 2px solid;
+}
+#contact {
+    padding-top: 80px;/*to keep about section below nav bar*/
+    margin-left: 10px;
+    margin-right: 10px;
+border: 2px solid;
 }
