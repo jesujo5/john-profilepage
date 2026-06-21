@@ -55,15 +55,19 @@ border: 2px solid;}
     padding-top: 80px;/*avoid content being overlapped with navbar*/
     margin-left:2px;
 }
+#home{
+    padding-top: 110px;/*alignment of "portfoilo" on home page*/
+    padding-bottom: 200px;
+border: 2px solid;
+}
 .portfolio{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 250px;
 
-    padding-top: 110px;/*alignment of "portfoilo" on home page*/
-    padding-bottom: 200px;
-border: 2px solid;
+    
+
     letter-spacing: 3px;
 }
 .portfolio span{
@@ -80,7 +84,13 @@ border: 2px solid;
     padding-top: 80px;/*to keep about section below nav bar*/
     margin-left: 10px;
     margin-right: 10px;
+    
 border: 2px solid;
+}
+.education-alignment{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
 }
 .Undergraduation{
     padding-left: 30px;
