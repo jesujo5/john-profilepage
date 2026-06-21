@@ -126,3 +126,10 @@ border: 2px solid;
     margin-right: 10px;
 border: 2px solid;
 }
+.Schooling h1{
+    font-style: italic;
+    text-decoration: underline;
+}
+.Schooling-ul{
+    list-style:none;
+}
