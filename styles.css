@@ -133,3 +133,7 @@ border: 2px solid;
 .Schooling-ul{
     list-style:none;
 }
+.certification-para a:visited{
+    color:aqua;
+
+}
