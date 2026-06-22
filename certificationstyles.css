@@ -6,6 +6,6 @@ body {
 .headlines {
     text-decoration: underline;
 }
-.redirectiontomain{
-    
+.redirectiontomain a:visited,a:hover{
+    color: white;
 }
