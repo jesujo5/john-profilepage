@@ -6,6 +6,13 @@ body {
 .headlines {
     text-decoration: underline;
 }
+.sastranet-fig a:visited{
+    color: cadetblue;
+    text-decoration: none;
+}
+.sastranet-fig a:hover {
+    color: aquamarine;
+}
 .redirectiontomain a:visited,a:hover{
     color: white;
 }
