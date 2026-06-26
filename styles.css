@@ -60,21 +60,16 @@ border: 2px solid;}
     padding-bottom: 200px;
 border: 2px solid;
 }
-.name{
-    font-size: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
 .portfolio{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: 200px;
+    align-items:end;
+    font-size: 80px;
     letter-spacing: 3px;
+    padding-right: 20%;
 }
 .portfolio span{
-    color: aqua;
+    color:darkred;
     letter-spacing: 5px;
 }
 #about {
