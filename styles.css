@@ -56,18 +56,21 @@ border: 2px solid;}
     margin-left:2px;
 }
 #home{
-    padding-top: 110px;/*alignment of "portfoilo" on home page*/
+    padding-top: 100px;/*alignment of "portfoilo" on home page*/
     padding-bottom: 200px;
 border: 2px solid;
+}
+.name{
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 .portfolio{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 250px;
-
-    
-
+    font-size: 200px;
     letter-spacing: 3px;
 }
 .portfolio span{
@@ -87,11 +90,7 @@ border: 2px solid;
     
 border: 2px solid;
 }
-.education-alignment{
-    display: flex;
-    flex-direction:row;
-    justify-content: space-evenly;
-}
+
 .Undergraduation{
     padding-left: 30px;
     padding-top: 10px;
@@ -107,6 +106,10 @@ border: 2px solid;
 .Undergraduation-ul span{
     font-style: italic;
     
+}
+.Schooling{
+    padding-left: 30px;
+    padding-top: 10px;
 }
 #skills {
     padding-top: 80px;/*to keep about section below nav bar*/
