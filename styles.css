@@ -1,8 +1,9 @@
 *{
-    padding:0;
     box-sizing:border-box;
 }
 body {
+    margin: 0;
+    padding: 0;
     background:black;
     color:#FEF0D5;
     display: flex;
@@ -16,10 +17,9 @@ html {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    backdrop-filter: blur(4px);/*blurry background*/
+    background: rgba(3,3,7,0.82);
+    backdrop-filter: blur(16px);
     font-size: 20px;
-    margin: 0%;
-    padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 0px;
