@@ -56,13 +56,15 @@ html {
     margin-left:2px;
 }
 #home{
-    padding-top: 100px;/*alignment of "portfoilo" on home page*/
+    background-image: radial-gradient(#780001, #300303, #050101, #111);
+    padding-top: 80px;/*alignment of "portfoilo" on home page*/
     padding-bottom: 200px;  
 }
 .portfolio{
     display: flex;
     flex-direction: column;
-    align-items:end;
+    align-items:start;
+    padding-left: 20px;
     font-size: 80px;
     letter-spacing: 3px;
     padding-right: 20%;
