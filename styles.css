@@ -1,3 +1,6 @@
+:root{
+    --background:lightcoral;
+}
 *{
     box-sizing:border-box;
 }
