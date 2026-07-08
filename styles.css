@@ -1,8 +1,10 @@
 :root{
-    --background1:lightcoral;
-    --background2:darkred;
+    --text:lightcoral;
+    --background2:#810100;
+    --background3:#1B1716;
+    --letter:#630102;
     --dark:#111;
-    --bright:#fefcfc;
+    --bright:#EDEBDE;
     
 }
 *{
@@ -39,7 +41,7 @@ html {
     flex-direction:row;  
 }
 .nav-name {
-    color:var(--background1);
+    color:var(--text);
     font-size: 25px;
 }
 .navlinks{
