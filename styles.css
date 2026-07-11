@@ -2,16 +2,17 @@
     --text:#C1121F;
     --background2:#810100;
     --background3:#1B1716;
-    --letter:#630102;
+    --letter:#780001;
     --dark:#111;
-    --bright:#EDEBDE;
+    --bright:#FEF0D5;
+    --blueshade: #002F49;
 }
 *{
     box-sizing:border-box;
 }
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     background:var(--dark);
     color:var(--bright);
     display: flex;
@@ -62,7 +63,7 @@ html {
     margin-left:2px;
 }
 #home{
-    background-image: radial-gradient(#780001, #300303, #050101, #111);
+    background-image: radial-gradient(var(--letter), #300303, #050101, var(--dark));
     padding-top: 60px;/*alignment of "portfoilo" on home page*/
     padding-bottom: 170px;  
 }
@@ -107,7 +108,6 @@ html {
 }
 .Undergraduation-ul span{
     font-style: italic;
-    
 }
 .Schooling{
     padding-left: 30px;
