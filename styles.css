@@ -34,7 +34,6 @@ html {
     height:80px;
     width: 100%;/*to make the nav bar fixed with full length */
 }
-#navbar 
 .nav-name{
     display: flex;
     flex-direction:row;  
@@ -64,10 +63,11 @@ html {
     margin-left:2px;
 }
 #home{
-    background-image: radial-gradient(var(--letter), #300303, #050101, var(--dark));
+    background-image: radial-gradient( circle at top center , var(--letter), #300303, #050101, var(--dark));
+    background-attachment: fixed ;
     padding-top: 60px;/*alignment of "portfoilo" on home page*/
     padding-bottom: 170px;  
-    z-index: 1;
+    background-size: cover;
 }
 .portfolio{
     display: flex;
@@ -131,6 +131,8 @@ html {
     padding-top: 80px;/*to keep about section below nav bar*/
     margin-left: 10px;
     margin-right: 10px;
+    background-color: #002F49;
+    background-size: cover;
 }
 .Schooling h1{
     font-style: italic;
