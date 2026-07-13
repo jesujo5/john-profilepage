@@ -6,6 +6,10 @@
     --dark:#111;
     --bright:#FEF0D5;
     --blueshade: #002F49;
+    --redblackshade:#300303;
+    --orangeshadetext:#ff6c62;
+    --orangeshade:#ff8c62;
+
 }
 *{
     box-sizing:border-box;
@@ -26,7 +30,7 @@ html {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background: var(--dark);
+    background:var(--dark);
     backdrop-filter: blur(16px);
     font-size: 20px;
     padding: 20px;
@@ -39,7 +43,7 @@ html {
     flex-direction:row;  
 }
 .nav-name {
-    color:var(--text);
+    color:var(--orangeshadetext);
     font-size: 25px;
 }
 .navlinks{
@@ -63,7 +67,7 @@ html {
     margin-left:2px;
 }
 #home{
-    background-image: radial-gradient( circle at top center , var(--letter), #300303, #050101, var(--dark));
+    background-image: radial-gradient( circle at top center , var(--letter),var(--redblackshade),var(--background3), var(--dark));
     background-attachment: fixed ;
     padding-top: 60px;/*alignment of "portfoilo" on home page*/
     padding-bottom: 170px;  
@@ -127,13 +131,7 @@ html {
     margin-left: 10px;
     margin-right: 10px;
 }
-#contact {
-    padding-top: 80px;/*to keep about section below nav bar*/
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #002F49;
-    background-size: cover;
-}
+
 .Schooling h1{
     font-style: italic;
     text-decoration: underline;
@@ -143,6 +141,28 @@ html {
 }
 .certification-para a:visited{
     color:aqua;
+}
+#contact {
+    padding-top: 80px;/*to keep about section below nav bar*/
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height:  100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   text-align: center; 
+    background-image: radial-gradient( var(--letter),var(--redblackshade),var(--dark), var(--dark));
+}
+.contact-discription{
+    color: var(--orangeshade);
+    font-size:30px;
+}
+.contact-headlines{
+     font-size:90px;
+}
+.contact-headlines-span{
+    font-size:90px;
+    color: goldenrod;
 }
 /*
 @media screen and ( min-width: 576px) {
