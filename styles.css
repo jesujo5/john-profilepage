@@ -151,7 +151,7 @@ html {
     align-items: center;
     justify-content: center;
     text-align: center; 
-    background-image: radial-gradient(circle at top center, , var(--redblackshade), var(--dark), var(--dark));
+    background: radial-gradient( circle at center,var(--letter) , var(--redblackshade), var(--dark), var(--dark));
 }
 .contact-discription{
     color: var(--orangeshade);
