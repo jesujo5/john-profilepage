@@ -67,7 +67,7 @@ html {
     margin-left:2px;
 }
 #home{
-    background-image: radial-gradient( circle at top center , var(--letter),var(--redblackshade),var(--background3), var(--dark));
+    background: radial-gradient( circle at top center, #780001, #111 , #111 );
     background-attachment: fixed ;
     padding-top: 60px;/*alignment of "portfoilo" on home page*/
     padding-bottom: 170px;  
@@ -150,8 +150,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-   text-align: center; 
-    background-image: radial-gradient( var(--letter),var(--redblackshade),var(--dark), var(--dark));
+    text-align: center; 
+    background-image: radial-gradient(circle at top center, , var(--redblackshade), var(--dark), var(--dark));
 }
 .contact-discription{
     color: var(--orangeshade);
