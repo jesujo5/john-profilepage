@@ -177,6 +177,12 @@ html {
     border-radius: 10px;
     
 }
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+}
 /*
 @media screen and ( min-width: 576px) {
 body{
