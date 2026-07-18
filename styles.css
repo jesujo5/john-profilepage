@@ -57,7 +57,7 @@ html {
     text-decoration: none;
 }
 .navlinks a:visited{
-    color:var(--bright);
+    color:var(--text);
 }
 .navlinks a:hover{
     color:var(--text);
@@ -182,6 +182,7 @@ html {
     align-items: center;
     justify-content: center;
     min-height: 40px;
+    color: var(--bright);
 }
 /*
 @media screen and ( min-width: 576px) {
