@@ -9,6 +9,7 @@
     --redblackshade:#300303;
     --orangeshadetext:#ff6c62;
     --orangeshade:#ff8c62;
+    --grey:grey;
 
 }
 *{
@@ -179,10 +180,10 @@ html {
 }
 .foot{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    gap: 1px;
     min-height: 40px;
-    color: var(--bright);
+    color: var(--grey);
 }
 /*
 @media screen and ( min-width: 576px) {
