@@ -7,7 +7,7 @@
     --bright:#FEF0D5;
     --blueshade: #002F49;
     --redblackshade:#300303;
-    --orangeshadetext:#ff6c62;
+    --orangeshadetext:#da5d54;
     --orangeshade:#ff8c62;
     --grey:grey;
 
@@ -58,7 +58,7 @@ html {
     text-decoration: none;
 }
 .navlinks a:visited{
-    color:var(--text);
+    color:var(--orangeshade);
 }
 .navlinks a:hover{
     color:var(--text);
@@ -172,18 +172,19 @@ html {
     justify-content: space-between;
 }
 .info-label{
-    padding :20px;
-
+    padding :10px;
     border: 2px solid var(--letter) ;
     border-radius: 10px;
-    
+     color: var(--grey);
 }
 .foot{
     display: flex;
     flex-direction: column;
+    align-items:center ;
+    justify-content: center;
     gap: 1px;
-    min-height: 40px;
-    color: var(--grey);
+    min-height: 60px;
+   
 }
 /*
 @media screen and ( min-width: 576px) {
