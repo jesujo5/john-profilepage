@@ -10,7 +10,6 @@
     --orangeshadetext:#da5d54;
     --orangeshade:#ff8c62;
     --grey:grey;
-
 }
 *{
     box-sizing:border-box;
@@ -102,11 +101,9 @@ html {
     margin-left: 10px;
     margin-right: 10px;
 }
-
 .Undergraduation{
     padding-left: 30px;
     padding-top: 10px;
-
 }
 .Undergraduation h1{
     font-style: italic;
@@ -170,12 +167,13 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 .info-label{
     padding :10px;
     border: 2px solid var(--letter) ;
     border-radius: 10px;
-     color: var(--grey);
+    color: var(--grey);
 }
 .foot{
     display: flex;
@@ -184,8 +182,7 @@ html {
     justify-content: center;
     gap: 1px;
     min-height: 60px;
-   
-}
+   }
 /*
 @media screen and ( min-width: 576px) {
 body{
